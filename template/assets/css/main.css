@@ -1200,7 +1200,7 @@ p {
 }
 
 .navbar-nav .nav-item:hover a {
-  color: #3E54FF;
+  color: #90d3ed;
 }
 
 .navbar-nav .nav-item a {
@@ -1240,7 +1240,7 @@ p {
 }
 
 .navbar-nav .nav-item a.active {
-  color: #3E54FF;
+  color: #90d3ed;
 }
 
 .navbar-nav .nav-item a.dd-menu {
@@ -1420,7 +1420,7 @@ p {
 
 .hero-slider .hero-text .small-title {
   color: #fff;
-  background: #3E54FF;
+  background: #90d3ed;
   font-size: 15px;
   padding: 5px 18px;
   display: inline-block;
@@ -1464,7 +1464,8 @@ p {
 }
 
 .hero-slider .hero-text .button .btn .dir-part {
-  background-color: #3E54FF;
+  /*background-color: #3E54FF;*/
+  background-color: #90d3ed;
 }
 
 .hero-slider .hero-text .button .btn:hover {
@@ -1547,7 +1548,7 @@ p {
   text-transform: capitalize;
   font-size: 14px;
   display: inline-block;
-  background: #3e54ff;
+  background: #90d3ed;
   color: #fff;
   padding: 4px 18px;
   margin-bottom: 5px;
@@ -2084,8 +2085,10 @@ p {
 }
 
 .newsletter .button button .dir-part {
-  background-color: #3E54FF;
+  /*background-color: #3E54FF;*/
+  background-color: #81ffcb;
 }
+
 
 .newsletter .button button:hover {
   border-color: #fff !important;
@@ -2393,7 +2396,7 @@ p {
 }
 
 .footer .footer-bottom p a:hover {
-  color: #3E54FF;
+  color: #90d3ed;
 }
 
 .footer .footer-bottom .left {}

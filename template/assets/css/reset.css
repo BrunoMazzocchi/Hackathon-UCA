@@ -488,7 +488,8 @@ big {
     width: 0;
     height: 0;
     border-radius: 50%;
-    background: #3E54FF;
+    /*background: #3E54FF;*/
+	background: #90d3ed;
     -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
     -o-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
     transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
@@ -508,7 +509,7 @@ big {
     font-weight: 600;
     padding: 15px 30px;
     background-color: #ffffff;
-    color: #3E54FF;
+	color: #90d3ed;
     -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
             box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
     border: none;
@@ -522,11 +523,11 @@ big {
     color: #ffffff;
 }
 .button .btn {
-    background-color: #3E54FF;
+	background-color: #90d3ed;
     color: #ffffff;
 }
 .button .btn:hover {
-    color: #3E54FF;
+	color: #90d3ed;
 }
 .button .btn .dir-part {
     background-color: #ffffff;
@@ -535,7 +536,7 @@ big {
 	border:2px solid transparent;
 }
 .button .btn.white-bg:hover{
-	border-color:#3E54FF;
+	border-color: #90d3ed;
 }
 /*--------------------------------------------------------------
 # Elements
