@@ -40,7 +40,7 @@ button:focus,
 }
 
 a:hover {
-  color: #3E54FF;
+  color: #90d3ed;
 }
 
 a {
@@ -157,7 +157,7 @@ p {
 .scroll-top {
   width: 45px;
   height: 45px;
-  background: #3E54FF;
+  background: #90d3ed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -227,7 +227,7 @@ p {
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  background: #3E54FF;
+  background: #90d3ed;
   -webkit-animation: preloader-fx 1.6s linear infinite;
   animation: preloader-fx 1.6s linear infinite;
 }
@@ -1020,7 +1020,7 @@ p {
 .header .toolbar-area .toolbar-contact p i {
   display: inline-block;
   margin-right: 6px;
-  color: #3E54FF;
+  color: #90d3ed;
   font-size: 15px;
 }
 
@@ -1101,7 +1101,7 @@ p {
 .navbar-area.sticky {
   position: fixed;
   z-index: 99;
-  background: #3E54FF;
+  background: #90d3ed;
   box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease-out 0s;
   background: #fff;
@@ -1113,7 +1113,7 @@ p {
 }
 
 .header {
-  background-color: #fff;
+  background-color: #7aa4e2;
 }
 
 .navbar {
@@ -1240,7 +1240,7 @@ p {
 }
 
 .navbar-nav .nav-item a.active {
-  color: #90d3ed;
+  color: #443cac;
 }
 
 .navbar-nav .nav-item a.dd-menu {
@@ -1302,7 +1302,7 @@ p {
 
 .navbar-nav .nav-item .sub-menu {
   min-width: 220px;
-  background-color: #fff;
+  background-color: #7aa4e2;
   box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 100% !important;
@@ -1356,7 +1356,7 @@ p {
 
 .navbar-nav .nav-item .sub-menu>li.active>a,
 .navbar-nav .nav-item .sub-menu>li:hover>a {
-  color: #3E54FF;
+  color: #90d3ed;
 }
 
 .navbar-nav .nav-item .sub-menu>li>a {
@@ -1375,7 +1375,7 @@ p {
 
 .navbar-nav .nav-item .sub-menu>li>a:hover {
   background: rgba(0, 0, 0, 0.05);
-  color: #3E54FF;
+  color: #90d3ed;
 }
 
 /*======================================
@@ -1387,7 +1387,7 @@ p {
 ========================================*/
 .hero-slider {
   position: relative;
-  background: #3e54ff08;
+  background: #90d3ed08;
 }
 
 .hero-slider .single-slider {
@@ -1464,12 +1464,12 @@ p {
 }
 
 .hero-slider .hero-text .button .btn .dir-part {
-  /*background-color: #3E54FF;*/
+  /*background-color: #90d3ed;*/
   background-color: #90d3ed;
 }
 
 .hero-slider .hero-text .button .btn:hover {
-  border-color: #3E54FF;
+  border-color: #90d3ed;
   color: #fff;
 }
 
@@ -1488,7 +1488,7 @@ p {
 }
 
 .hero-slider .tns-nav {
-  background: #3E54FF;
+  background: #90d3ed;
   display: inline-block;
   padding: 8px 20px 8px 20px;
   border-radius: 3px;
@@ -1508,7 +1508,7 @@ p {
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
   margin: 0;
-  background: #fff;
+  background: #7aa4e2;
   display: inline-block;
   border: none;
   margin-right: 9px;
@@ -1532,7 +1532,7 @@ p {
 	03. Start Features CSS
 ===============================*/
 .Features {
-  background: #fff;
+  background: #ccdffa;
 }
 
 .Features .feature-content {
@@ -1651,7 +1651,7 @@ p {
 }
 
 .feature-right .video-head .video:hover {
-  background: #3E54FF;
+  background: #90d3ed;
   color: #fff;
 }
 
@@ -1659,7 +1659,7 @@ p {
   height: 80px;
   width: 80px;
   background: #fff;
-  color: #3E54FF;
+  color: #90d3ed;
   text-align: center;
   line-height: 84px;
   border-radius: 50%;
@@ -1703,12 +1703,11 @@ p {
 	End Features CSS
 ===============================*/
 
-
 /*=============================
 	04. Start Services CSS
 ===============================*/
 .services {
-  background: #F9FAFF;
+  background: #c0d8fa;
   padding-bottom: 85px;
 }
 
@@ -1741,22 +1740,22 @@ p {
   line-height: 65px;
   text-align: center;
   background: #74b9ff;
-  color: #3E54FF;
+  color: #90d3ed;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  background: #3E54FF0f;
+  background: #90d3ed0f;
   border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
 }
 
 .services .single-service:hover {
-  background: #3E54FF;
+  background: #74b9ff;
 }
 
 .services .single-service:hover .serial span {
   border-color: transparent;
   background: #fff;
-  color: #3E54FF;
+  color: #4F3AFF;
   border-radius: 50%;
 }
 
@@ -1825,7 +1824,7 @@ p {
   bottom: 0;
   height: 3px;
   width: 80px;
-  background: #3E54FF;
+  background: #90d3ed;
   z-index: 1;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -1864,247 +1863,26 @@ p {
 }
 
 .services .single-service .content .button .btn {
-  border: 2px solid #3E54FF;
-  color: #3E54FF;
+  border: 2px solid #90d3ed;
+  color: #90d3ed;
   background: transparent;
 }
 
 .services .single-service .content .button .btn:hover {
   border-color: transparent;
   color: #fff;
-  background: #3E54FF;
+  background: #ccdffa;
 }
 
 /*=============================
   End Service CSS
 ===============================*/
 
-/*=============================
-	09. Start Pricing Table CSS
-===============================*/
-.pricing-table {
-  background: #fff;
-  position: relative;
-}
-
-.pricing-table .single-table {
-  background: #fff;
-  text-align: center;
-  position: relative;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  padding: 60px 20px;
-  box-shadow: 0 10px 30px rgba(111, 111, 111, 0.1);
-  overflow: hidden;
-}
-
-.pricing-table .single-table .popular {
-  color: #fff;
-  background: #3E54FF;
-  display: inline-block;
-  padding: 5px 70px;
-  position: absolute;
-  right: -60px;
-  top: 14px;
-  font-size: 13px;
-  transform: rotate(45deg);
-}
-
-/* Table Head */
-.pricing-table .single-table .table-head {}
-
-.pricing-table .single-table .title {
-  font-size: 23px;
-  font-weight: 600;
-  line-height: 26px;
-}
-
-.pricing-table .single-table .title span {
-  display: block;
-  margin-top: 0;
-  font-size: 13px;
-  font-weight: 400;
-  color: #888;
-  text-transform: capitalize;
-}
-
-.pricing-table .single-table .price {
-  height: 120px;
-  width: 120px;
-  display: inline-block;
-  border: 1px dashed #74b9ff;
-  border-radius: 50%;
-  margin: 20px 0;
-}
-
-.pricing-table .single-table .amount {
-  position: relative;
-  color: #333;
-  font-size: 35px;
-  display: inline-block;
-  margin: 45px 0;
-  font-weight: 600;
-}
-
-.pricing-table .single-table .curency {
-  color: #555;
-  font-size: 17px;
-  font-weight: 400;
-  position: absolute;
-  left: -14px;
-  top: -7px;
-}
-
-.pricing-table .single-table .duration {
-  color: #888;
-  font-size: 11px;
-  font-weight: 400;
-  position: absolute;
-  right: -25px;
-  bottom: -6px;
-}
-
-/* Table List */
-.pricing-table .table-list li {
-  color: #444;
-  margin-bottom: 5px;
-  font-size: 14px;
-}
-
-.pricing-table .table-list li:last-child {
-  margin-bottom: 0;
-}
-
-/* Table Bottom */
-.pricing-table .button {
-  margin-top: 30px;
-}
-
-/*=============================
-	End Pricing Table CSS
-===============================*/
-
-
-/*======================================
-   12. Start Clients CSS
-========================================*/
-
-.client-logo-section {
-  background: #F9FAFF;
-  padding: 50px 0;
-}
-
-.client-logo-section .client-logo-wrapper .client-logo-carousel .client-logo {
-  padding: 10px;
-  text-align: center;
-  margin: auto
-}
-
-.client-logo-section .client-logo-wrapper .client-logo-carousel .client-logo img {
-  max-width: 220px;
-  width: 100%;
-  opacity: .3;
-  -webkit-transition: all .3s ease-out 0s;
-  transition: all .3s ease-out 0s
-}
-
-.client-logo-section .client-logo-wrapper .client-logo-carousel .client-logo img:hover {
-  opacity: 1
-}
-
-/*======================================
-   End Clients CSS
-========================================*/
-
-/*======================================
-	16. Start Newsletter CSS
-========================================*/
-.newsletter {
-  background-image: url('../images/pattern.png');
-  background-color: #3E54FF;
-}
-
-.newsletter .subscribe-text h6 {
-  font-size: 26px;
-  margin-bottom: 20px;
-  color: #fff;
-  font-weight: 700;
-}
-
-.newsletter .subscribe-text p {
-  font-size: 14px;
-  color: #fff;
-}
-
-.newsletter .subscribe-form {
-  position: relative;
-}
-
-.newsletter .common-input {
-  height: 60px;
-  width: 350px;
-  border: none;
-  box-shadow: none;
-  text-shadow: none;
-  border-radius: 0;
-  padding: 0px 30px;
-  font-weight: 500;
-  font-size: 14px;
-  background: transparent;
-  border: 2px solid #eee;
-  color: #fff !important;
-}
-
-.newsletter .subscribe-form input {
-  opacity: 1;
-  color: #fff !important;
-}
-
-.newsletter .subscribe-form input::-webkit-input-placeholder {
-  opacity: 1;
-  color: #fff !important;
-}
-
-.newsletter .subscribe-form input::-moz-placeholder {
-  opacity: 1;
-  color: #fff !important;
-}
-
-.newsletter .button {
-  display: inline-block;
-}
-
-.newsletter .button button {
-  height: 60px;
-  background: #fff;
-  color: #333;
-  position: relative;
-  top: -1px;
-  margin-left: 10px;
-}
-
-.newsletter .button button .dir-part {
-  /*background-color: #3E54FF;*/
-  background-color: #81ffcb;
-}
-
-
-.newsletter .button button:hover {
-  border-color: #fff !important;
-  color: #fff;
-}
-
-/*======================================
-	End Newsletter CSS
-========================================*/
-
-
 /*======================================
 	17. Start Footer CSS
 ========================================*/
 .footer {
-  background-color: #fff;
+  background-color: #a8ccfd;
   z-index: 2;
   position: relative;
 }
@@ -2157,7 +1935,7 @@ p {
   display: block;
   border: 1px solid #eee;
   line-height: 35px;
-  background: #3e54ff;
+  background: #90d3ed;
   border: none;
   color: #fff;
 }
@@ -2251,7 +2029,7 @@ p {
 }
 
 .footer .f-link ul li a:hover {
-  color: #3E54FF;
+  color: #90d3ed;
   padding-left: 5px;
 }
 
@@ -2291,7 +2069,7 @@ p {
   display: inline-block;
   margin-right: 7px;
   font-size: 17px;
-  color: #3E54FF;
+  color: #90d3ed;
 
 }
 
@@ -2327,7 +2105,7 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  background: #3E54FF;
+  background: #90d3ed;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.4s ease;
@@ -2412,7 +2190,7 @@ p {
 
 .free-version-banner {
   position: relative;
-  background: #3e54ff;
+  background: #90d3ed;
   background-image: url('../images/pattern.png');
 }
 
@@ -2425,7 +2203,7 @@ p {
 .free-version-banner .section-title span {
   margin-bottom: 15px;
   background-color: #fff;
-  color: #3e54ff !important;
+  color: #90d3ed !important;
 }
 
 .free-version-banner .section-title h2 {
@@ -2449,7 +2227,7 @@ p {
 
 .free-version-banner .button .btn {
   background-color: #fff;
-  color: #3e54ff;
+  color: #90d3ed;
 }
 
 .free-version-banner .button .btn:hover {
