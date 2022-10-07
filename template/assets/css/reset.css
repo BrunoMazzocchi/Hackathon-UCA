@@ -447,6 +447,24 @@ big {
 	font-size: 13px;
 }
 
+/* Section Title */
+.section-title3 {
+	text-align: center;
+	margin-bottom: 80px;
+	padding: 0 105px;
+	position: relative;
+	z-index: 5;
+}
+.section-title3 span{
+	text-transform:capitalize;
+	background: #3ee728;
+	color: #fff;
+	padding: 2px 18px;
+	display: inline-block;
+	margin-bottom: 7px;
+	font-size: 13px;
+}
+
 .section-title h2 {
 	font-size: 37px;
 	margin-bottom: 18px;
@@ -543,7 +561,7 @@ big {
 }
 .button .btn {
 	background-color: #90d3ed;
-    color: #ffffff;
+    color: #000;
 }
 .button .btn:hover {
 	color: #90d3ed;
@@ -610,7 +628,7 @@ big {
 }
 .button2 .btn2 {
 	background-color: #bd8216;
-    color: #fff;
+    color: #000;
 }
 .button2 .btn2:hover {
 	color: #493116;
@@ -626,7 +644,70 @@ big {
 }
 
 
-
+.mouse-dir3{
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+    z-index: 1;
+}
+.mouse-dir3 .dir-part{
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    /*background: #3E54FF;*/
+	background: #cffa9d;
+    -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    -o-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.mouse-dir3:hover .dir-part{
+    width: 260%;
+    height: 562.5px;
+}
+.button3 .btn3{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    background-color: #ffffff;
+	color: #56d43d;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+            box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    border: none;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	border-radius:0;
+}
+.button3 .btn3:hover,
+.button3 .btn3:hover {
+    color: #315811;
+}
+.button3 .btn3 {
+	background-color: #4bbd16;
+    color: #000;
+}
+.button3 .btn3:hover {
+	color: #1e4916;
+}
+.button3 .btn3 .dir-part {
+    background-color: #85c478;
+}
+.button3 .btn3.white-bg{
+	border:2px solid transparent;
+}
+.button3 .btn3.white-bg:hover{
+	border-color: rgb(126, 204, 53);
+}
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
