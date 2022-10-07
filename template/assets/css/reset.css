@@ -428,6 +428,25 @@ big {
 	margin-bottom: 7px;
 	font-size: 13px;
 }
+
+/* Section Title */
+.section-title2 {
+	text-align: center;
+	margin-bottom: 80px;
+	padding: 0 105px;
+	position: relative;
+	z-index: 5;
+}
+.section-title2 span{
+	text-transform:capitalize;
+	background: #e7a428;
+	color: #fff;
+	padding: 2px 18px;
+	display: inline-block;
+	margin-bottom: 7px;
+	font-size: 13px;
+}
+
 .section-title h2 {
 	font-size: 37px;
 	margin-bottom: 18px;
@@ -453,7 +472,7 @@ big {
 	line-height: 24px;
 }
 .container{
-	max-width:1170px;
+	max-width:1500px;
 }
 .overlay{
 	position:relative
