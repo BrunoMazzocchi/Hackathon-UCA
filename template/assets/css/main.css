@@ -1432,8 +1432,8 @@ p {
   content: "";
   right: 0;
   width: 50%;
-  background-image: url(../images/hero-bg.jpg);
-  background-size: cover;
+  background-image: url(../images/family2.svg);
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 0;
