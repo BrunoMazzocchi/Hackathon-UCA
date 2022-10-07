@@ -40,7 +40,7 @@ button:focus,
 }
 
 a:hover {
-  color: #90d3ed;
+  color: #9690ed;
 }
 
 a {
@@ -175,6 +175,32 @@ p {
 }
 
 .scroll-top:hover {
+  color: #fff;
+  background: #333;
+}
+
+
+.scroll-top2 {
+  width: 45px;
+  height: 45px;
+  background: #b3a923;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #fff !important;
+  border-radius: 0;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 9;
+  cursor: pointer;
+  transition: all 0.3s ease-out 0s;
+  text-align: center;
+  line-height: 45px;
+}
+
+.scroll-top2:hover {
   color: #fff;
   background: #333;
 }
@@ -1020,12 +1046,12 @@ p {
 .header .toolbar-area .toolbar-contact p i {
   display: inline-block;
   margin-right: 6px;
-  color: #90d3ed;
+  color: #ed9090;
   font-size: 15px;
 }
 
 .header .toolbar-area .toolbar-contact p a:hover {
-  color: #4d6de6;
+  color: #e6b64d;
 }
 
 .header .toolbar-area .toolbar-contact ul li p {
@@ -1204,7 +1230,7 @@ p {
 }
 
 .navbar-nav .nav-item:hover a {
-  color: #90d3ed;
+  color: #ff0800;
 }
 
 .navbar-nav .nav-item a {
@@ -1244,7 +1270,7 @@ p {
 }
 
 .navbar-nav .nav-item a.active {
-  color: #443cac;
+  color: #ff0800;
 }
 
 .navbar-nav .nav-item a.dd-menu {
@@ -1406,8 +1432,8 @@ p {
   content: "";
   right: 0;
   width: 50%;
-  background-image: url(../images/family2.svg);
-  background-size: contain;
+  background-image: url(../images/hero-bg.jpg);
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 0;
@@ -1624,15 +1650,12 @@ p {
 }
 
 .feature-right {
-  padding-left: -10px !important;
-
   position: relative;
-  background-image: url('../images/children.svg');
-  background-size: contain;
+  background-image: url('../images/feature-image.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 150%;
+  height: 100%;
   width: 100%;
-
 }
 
 .feature-right .watch-inner {
@@ -2725,7 +2748,7 @@ p {
   display: inline-block;
   margin-right: 7px;
   font-size: 17px;
-  color: rgb(92, 70, 22);
+  color: #fff;
 
 }
 

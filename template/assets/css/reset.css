@@ -528,7 +528,7 @@ big {
     font-weight: 600;
     padding: 15px 30px;
     background-color: #ffffff;
-	color: #90d3ed;
+	color: #7aa4e2;
     -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
             box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
     border: none;
@@ -549,14 +549,84 @@ big {
 	color: #90d3ed;
 }
 .button .btn .dir-part {
-    background-color: #ffffff;
+    background-color: #5683cc;
 }
 .button .btn.white-bg{
 	border:2px solid transparent;
 }
 .button .btn.white-bg:hover{
-	border-color: #90d3ed;
+	border-color: rgb(76, 79, 238);
 }
+
+
+
+.mouse-dir2{
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+    z-index: 1;
+}
+.mouse-dir2 .dir-part{
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    /*background: #3E54FF;*/
+	background: #fae99d;
+    -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    -o-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.mouse-dir2:hover .dir-part{
+    width: 260%;
+    height: 562.5px;
+}
+.button2 .btn2{
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    background-color: #ffffff;
+	color: #d4b13d;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+            box-shadow: 0 0 30px 0 rgba(0,0,0,0.05);
+    border: none;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	border-radius:0;
+}
+.button2 .btn2:hover,
+.button2 .btn2:hover {
+    color: #583911;
+}
+.button2 .btn2 {
+	background-color: #bd8216;
+    color: #fff;
+}
+.button2 .btn2:hover {
+	color: #493116;
+}
+.button2 .btn2 .dir-part {
+    background-color: #c4c278;
+}
+.button2 .btn2.white-bg{
+	border:2px solid transparent;
+}
+.button2 .btn2.white-bg:hover{
+	border-color: rgb(204, 164, 53);
+}
+
+
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
