@@ -1139,7 +1139,7 @@ p {
 }
 
 .header {
-  background-color: #7aa4e2;
+  background-color: #99c2ff;
 }
 
 .header2 {
@@ -1147,7 +1147,7 @@ p {
 }
 
 .header3 {
-  background-color: #91ec7a;
+  background-color: #b5fca4;
 }
 
 .navbar {
@@ -1234,7 +1234,7 @@ p {
 }
 
 .navbar-nav .nav-item:hover a {
-  color: #ff0800;
+  color: #4400ff;
 }
 
 .navbar-nav .nav-item a {
@@ -1274,7 +1274,7 @@ p {
 }
 
 .navbar-nav .nav-item a.active {
-  color: #ff0800;
+  color: #4d6de6;
 }
 
 .navbar-nav .nav-item a.dd-menu {
@@ -1461,15 +1461,14 @@ p {
   margin-bottom: 15px;
 }
 
-.hero-slider2 .hero-text .small-title {
+.hero-slider .hero-text .small-title2 {
   color: #fff;
-  background: #a27ae2;
+  background: #7ae283;
   font-size: 15px;
   padding: 5px 18px;
   display: inline-block;
   margin-bottom: 15px;
 }
-
 
 
 .hero-slider .hero-text h1 {
@@ -1577,7 +1576,7 @@ p {
 	03. Start Features CSS
 ===============================*/
 .Features {
-  background: #ccdffa;
+  background: #e3efff;
 }
 
 .Features .feature-content {
@@ -1823,7 +1822,7 @@ p {
 }
 
 .Features3 {
-  background: #ceffc2;
+  background: #f2ffee;
 }
 
 .Features3 .feature-content {
@@ -1998,7 +1997,7 @@ p {
 	04. Start Services CSS
 ===============================*/
 .services {
-  background: #c0d8fa;
+  background: #ddeaff;
   padding-bottom: 85px;
 }
 
@@ -2334,7 +2333,7 @@ p {
 }
 
 .services3 {
-  background: #b6ffb9;
+  background: #dfffe1;
   padding-bottom: 85px;
 }
 
@@ -2509,7 +2508,7 @@ p {
 	17. Start Footer CSS
 ========================================*/
 .footer {
-  background-color: #a8ccfd;
+  background-color: #cee3ff;
   z-index: 2;
   position: relative;
 }
@@ -2811,7 +2810,7 @@ p {
 }
 
 .footer2 {
-  background-color: #fffd9a;
+  background-color: #fffead;
   z-index: 2;
   position: relative;
 }
@@ -2958,7 +2957,7 @@ p {
 }
 
 .footer2 .f-link ul li a:hover {
-  color: #fff;
+  color: rgb(202, 109, 33);
   padding-left: 5px;
 }
 
@@ -2998,7 +2997,7 @@ p {
   display: inline-block;
   margin-right: 7px;
   font-size: 17px;
-  color: #fff;
+  color: #000;
 
 }
 
@@ -3113,7 +3112,7 @@ p {
 }
 
 .footer3 {
-  background-color: #b3ff80;
+  background-color: #e3ffd0;
   z-index: 2;
   position: relative;
 }
